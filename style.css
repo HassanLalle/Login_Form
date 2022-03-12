@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: sans-serif;
+}
+
+body{
+    background: url('./90.jpg')no-repeat;
+    background-size: cover;
+}
+
+.login form{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px 50px;
+    border-radius:15px;
+    font-size: 1.5em;
+}
+
+.login form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px;
+}
+
+.login form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.login form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 8px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.login form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
+
+.login{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+}
+.icon{
+    font-size: 15;
+    margin: 10;
+}
+img{
+    
+    width: 50px;
+    height: 50px;
+}
